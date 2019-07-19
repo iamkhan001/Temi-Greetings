@@ -12,6 +12,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="@dimen/space_normal"
+            android:gravity="center_vertical"
             android:orientation="horizontal">
 
         <TextView
@@ -30,8 +31,9 @@
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
                 android:maxLength="30"
+                android:layout_marginStart="@dimen/space_normal"
                 android:maxLines="2"
-                android:textSize="@dimen/text_small" />
+                android:textSize="@dimen/text_large" />
 
     </LinearLayout>
 
