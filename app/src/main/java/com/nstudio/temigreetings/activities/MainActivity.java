@@ -1,4 +1,4 @@
-package com.nstudio.temigreetings;
+package com.nstudio.temigreetings.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,6 +13,8 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.nstudio.temigreetings.R;
+import com.nstudio.temigreetings.adapter.CustomAdapter;
 import com.robotemi.sdk.NlpResult;
 import com.robotemi.sdk.Robot;
 import com.robotemi.sdk.TtsRequest;

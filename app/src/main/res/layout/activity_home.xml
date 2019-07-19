@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_card"
+        android:padding="10dp"
+        tools:context=".activities.HomeActivity">
+
+
+
+    <ImageView
+            android:id="@+id/imgBack"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_width="@dimen/size_normal"
+            android:layout_height="@dimen/size_normal"/>
+
+    <TextView
+            android:id="@+id/tvGreetings"
+            android:layout_marginStart="@dimen/space_large"
+            android:layout_toEndOf="@id/imgBack"
+            android:textSize="@dimen/text_head"
+            android:textColor="@color/white"
+            android:text="@string/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/tvMessage"
+            android:layout_marginStart="@dimen/space_large"
+            android:layout_toEndOf="@id/imgBack"
+            android:textSize="@dimen/text_large"
+            android:layout_below="@id/imgBack"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/space_large"
+            android:text="Hi, I'm Temi! May I help you"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvOptions"
+            android:layout_margin="@dimen/space_xxl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/space_large"
+            android:background="@drawable/window_bg_t"
+            android:orientation="vertical">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+</RelativeLayout>

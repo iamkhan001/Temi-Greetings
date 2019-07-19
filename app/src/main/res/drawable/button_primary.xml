@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_pressed="true" >
+<shape
+    android:shape="rectangle">
+ 
+    <!-- view background color -->
+    <solid
+        android:color="#20a27A" >
+    </solid>
+ 
+    <!-- view border color and width -->
+
+ 
+    <!-- If you want to add some padding -->
+
+ 
+    <!-- Here is the corner radius -->
+    <corners
+        android:radius="20dp"   >
+    </corners>
+</shape>
+</item>
+    <item android:state_enabled="false">
+        <shape
+            android:shape="rectangle">
+
+            <!-- view background color -->
+            <solid
+                android:color="@color/gray" >
+            </solid>
+
+            <!-- view border color and width -->
+
+
+            <!-- If you want to add some padding -->
+
+
+            <!-- Here is the corner radius -->
+            <corners
+                android:radius="20dp"   >
+            </corners>
+        </shape>
+    </item>
+
+    <item android:state_focused="true" >
+        <shape
+            android:shape="rectangle">
+
+            <!-- view background color -->
+            <solid
+                android:color="@color/colorPrimary" >
+            </solid>
+
+            <!-- view border color and width -->
+
+
+            <!-- If you want to add some padding -->
+
+
+            <!-- Here is the corner radius -->
+            <corners
+                android:radius="20dp"   >
+            </corners>
+        </shape>
+    </item>
+    <item>
+        <shape
+            android:shape="rectangle">
+
+            <!-- view background color -->
+            <solid
+                android:color="#20B2AA" >
+            </solid>
+
+            <!-- view border color and width -->
+
+
+            <!-- If you want to add some padding -->
+
+
+            <!-- Here is the corner radius -->
+            <corners
+                android:radius="20dp"   >
+            </corners>
+        </shape>
+    </item>
+</selector>

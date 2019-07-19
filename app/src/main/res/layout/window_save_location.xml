@@ -1,0 +1,60 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:orientation="vertical">
+
+
+    <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/space_small"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="Save Location"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_normal"
+            android:drawableEnd="@drawable/ic_close_grey"
+            android:textStyle="bold" />
+
+
+    <RelativeLayout
+            android:padding="@dimen/space_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+        <EditText
+                android:id="@+id/etName"
+                android:inputType="text"
+                android:layout_marginTop="@dimen/space_large"
+                android:hint="Enter Location Name"
+                android:padding="@dimen/space_small"
+                android:background="@drawable/background_border"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_normal"/>
+
+
+
+
+        <Button
+                android:id="@+id/btnSave"
+                android:text="Save"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/button_primary"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_normal"/>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

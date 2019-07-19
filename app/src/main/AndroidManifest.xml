@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools" package="com.nstudio.temigreetings">
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.nstudio.temigreetings">
 
     <application
             android:allowBackup="true"
@@ -10,41 +11,32 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
-
-        <activity android:name=".MainActivity">
+        <activity
+                android:theme="@style/AppTheme.NoActionBar"
+                android:name=".activities.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-
         </activity>
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
 
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
 
         <meta-data
                 android:name="com.robotemi.sdk.metadata.SKILL"
                 android:value="@string/app_name"/>
-
         <meta-data
                 android:name="com.robotemi.sdk.metadata.ACTIONS"
-                android:value="
-            radio.play,
-            radio.search,
-            radio.show.all,
-            radio.next,
-            radio.previous,
-            radio.return,
-            radio.cancel,
-            radio.close,
-            media.play,
-            media.pause" />
-
+                android:value="             radio.play,             radio.search,             radio.show.all,             radio.next,             radio.previous,             radio.return,             radio.cancel,             radio.close,             media.play,             media.pause"/>
         <meta-data
                 android:name="com.robotemi.sdk.metadata.CONTEXTS"
-                android:value="
-            radio,
-            media" />
-
+                android:value="             radio,             media"/>
     </application>
 
 </manifest>

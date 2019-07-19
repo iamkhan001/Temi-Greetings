@@ -6,4 +6,33 @@
 
     <color name="colorPrimaryLight">#b2dfdb</color>
 
+    <color name="action_button">#aaffffff</color>
+    <color name="purple">#576ac2</color>
+    <color name="purple_dark">#3549a0</color>
+    <color name="list_icon">#808080</color>
+    <color name="gray_star">#808080</color>
+    <color name="color_primary">#17827d</color>
+    <color name="white">#fff</color>
+    <color name="white1">#eee</color>
+    <color name="white2">#bbffffff</color>
+    <color name="gray">#A0A0A0</color>
+    <color name="yellow">#FFD700</color>
+    <color name="gray2">#808080</color>
+    <color name="gray_dark">#505050</color>
+    <color name="gray_lite">#D0D0D0</color>
+    <color name="gray_b">#bbb</color>
+    <color name="white_2">#EEE</color>
+    <color name="green_dark">#2E8B57</color>
+    <color name="blue_l1">#1E90FF</color>
+    <color name="blue_r">#4169E1</color>
+    <color name="black">#000</color>
+    <color name="red_salmon">#E9967A</color>
+    <color name="red_indian">#CD5C5C</color>
+    <color name="select">#88888888</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="gold">#ffaa00</color>
+    <color name="blue_royal">#1a75ff</color>
+    <color name="green">#00aa00</color>
+    <color name="red_dark">#aa0000</color>
 </resources>
