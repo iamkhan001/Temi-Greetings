@@ -6,6 +6,7 @@ import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.os.Handler;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
@@ -56,6 +57,9 @@ public class HomeActivity extends AppCompatActivity implements
         tvGreetings = findViewById(R.id.tvGreetings);
         tvMessage = findViewById(R.id.tvMessage);
 
+
+
+
         RecyclerView rvOptions = findViewById(R.id.rvOptions);
 
 
@@ -96,6 +100,14 @@ public class HomeActivity extends AppCompatActivity implements
         rvOptions.setAdapter(adapter);
 
         robot = Robot.getInstance();
+
+
+        findViewById(R.id.imgBack).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                HomeActivity.this.finish();
+            }
+        });
 
     }
 
