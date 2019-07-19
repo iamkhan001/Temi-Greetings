@@ -20,10 +20,11 @@
                 android:layout_width="@dimen/size_normal"
                 android:layout_height="@dimen/size_normal"
                 android:layout_margin="@dimen/space_small"
+                android:maxLength="1"
                 android:background="@drawable/background_circle"
                 android:gravity="center"
                 android:textColor="@color/white"
-                android:textSize="@dimen/text_small" />
+                android:textSize="@dimen/text_large" />
 
         <TextView
                 android:id="@+id/tvName"
